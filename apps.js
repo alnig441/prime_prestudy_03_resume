@@ -1,5 +1,5 @@
-$(document).ready(function(){
-	$('button').on('click', function(){
+	$(document).ready(function(){
+	$('#button').on('click', function(){
 		if($('main').css('display')=='none'){
 
 			alert('Press OK to view resume');
@@ -16,6 +16,7 @@ $(document).ready(function(){
 		}
 
 	});
+
 
 
 });
